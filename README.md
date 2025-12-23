@@ -67,33 +67,36 @@ The application is used by a large user base and requires high reliability acros
 
 ## 🧪 Sample test framework structure
 
-cypress-qa-portfolio/
-├── cypress/
-│   ├── config/
-│   │   ├── development.js
-│   │   ├── preview.js
-│   │   ├── production.js
-│   │   └── staging.js
-│   ├── e2e/
-│   │   ├── planPage.spec.js
-│   │   └── usage.spec.js
-│   ├── fixtures/
-│   │   └── customer/
-│   │       └── plan.json
-│   ├── screenshots/
-│   │   └── placeholder.png
-│   ├── downloads/
-│   └── support/
-│       ├── POM/
-│       │   ├── PlanPage/
-│       │   │   └── planPage.js
-│       │   └── UsagePage/
-│       │       └── usagePage.js
-│       ├── commands.js
-│       ├── e2e.js
-│       └── loginPage.js
-├── .gitignore
+# 📂 Cypress QA Portfolio – Folder Structure
+
+📁 **cypress-qa-portfolio/**
+├── 📁 **cypress/**
+│   ├── 📁 **config/**  
+│   │    ├── development.js  
+│   │    ├── preview.js  
+│   │    ├── production.js  
+│   │    └── staging.js  
+│   ├── 📁 **e2e/**  
+│   │    ├── planPage.spec.js  
+│   │    └── usage.spec.js  
+│   ├── 📁 **fixtures/**  
+│   │    └── 📁 customer/  
+│   │         └── plan.json  
+│   ├── 📁 **screenshots/**  
+│   │    └── placeholder.png  
+│   ├── 📁 **downloads/**  
+│   └── 📁 **support/**  
+│        ├── 📁 **POM/**  
+│        │    ├── 📁 PlanPage/  
+│        │    │    └── planPage.js  
+│        │    └── 📁 UsagePage/  
+│        │         └── usagePage.js  
+│        ├── commands.js  
+│        ├── e2e.js  
+│        └── loginPage.js  
+├── .gitignore  
 └── README.md
+
 
 
 
