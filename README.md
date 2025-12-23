@@ -9,9 +9,9 @@ This repository represents my **real-world QA experience**, written in a **gener
 ---
 
 ## 🧩 Current Project Overview
-- **Project Type:** [ Enterprise ]
+- **Project Type:** Enterprise
 - **Status:** Ongoing
-- **Methodology:** [ Agile ]
+- **Methodology:**  Agile 
 - **Role:** Senior QA Automation Engineer
 
 The application is used by a large user base and requires high reliability across multiple platforms.
@@ -32,7 +32,7 @@ The application is used by a large user base and requires high reliability acros
 
 ## 🔧 Tools & Technologies
 **Web Automation:**  
-- [ Cypress, Nightwatch, Reflect AI ]
+- Cypress, Nightwatch, Reflect AI
 
 **Mobile Automation:**  
 - Appium (Android & iOS)
@@ -41,10 +41,10 @@ The application is used by a large user base and requires high reliability acros
 - Postman
 
 **Programming Languages:**  
-- [ JavaScript & TypeScript]
+- JavaScript & TypeScript
 
 **CI/CD:**  
-- [GitHub Actions, Jenkins]
+- GitHub Actions, Jenkins
 
 **Debugging & Network Tools:**  
 - Proxyman
@@ -53,35 +53,49 @@ The application is used by a large user base and requires high reliability acros
 - Git
 
 **Test Frameworks:**  
-- [ Cypress Automation Framework ]
+- Cypress Automation Framework
 
 ---
 
 ## 📈 Key Achievements
-- Automated approximately **[90%]** of regression test cases
+- Automated approximately **90%** of regression test cases
 - Reduced regression execution time
 - Identified critical issues before production releases
 - Improved overall test coverage and release confidence
 
 ---
 
-## 🚧 Challenges & Solutions
-### Challenge 1
-**Issue:** [Flaky automation tests / unstable builds]  
-**Solution:** Improved synchronization, retries, and test data handling.
+## 🧪 Sample test framework structure
 
-### Challenge 2
-**Issue:** [Frequent releases / tight timelines]  
-**Solution:** Prioritized automation for high-risk areas and integrated tests into CI/CD.
+cypress-qa-portfolio/
+├── cypress/
+│   ├── config/
+│   │   ├── development.js
+│   │   ├── preview.js
+│   │   ├── production.js
+│   │   └── staging.js
+│   ├── e2e/
+│   │   ├── planPage.spec.js
+│   │   └── usage.spec.js
+│   ├── fixtures/
+│   │   └── customer/
+│   │       └── plan.json
+│   ├── screenshots/
+│   │   └── placeholder.png
+│   ├── downloads/
+│   └── support/
+│       ├── POM/
+│       │   ├── PlanPage/
+│       │   │   └── planPage.js
+│       │   └── UsagePage/
+│       │       └── usagePage.js
+│       ├── commands.js
+│       ├── e2e.js
+│       └── loginPage.js
+├── .gitignore
+└── README.md
 
----
 
-## 🧪 Sample Work (Optional – No Confidential Code)
-This repository may include:
-- Sample test framework structure
-- Example test cases with dummy data
-- Sample test strategy document
-- CI/CD workflow examples (generic)
 
 > ⚠️ No proprietary or confidential code is shared.
 
